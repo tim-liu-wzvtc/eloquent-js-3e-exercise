@@ -24,7 +24,7 @@
 
       console.log(f([1, 2, 3]));
 
-      //高阶函数的写法
+      //高阶函数(把函数作为参数传入函数）的写法
       [1, 2, 3].reverse().reduce((a, b) => {
         let result = { value: b };
         result.rest = a;
